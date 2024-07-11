@@ -1,0 +1,169 @@
+
+/* Styling the home page */
+
+.home-container{
+
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+
+    height: 12cm;
+    border-radius: 10px;  
+   background: linear-gradient(90deg ,#e0cbda  27%,  #9f54d6 85%); 
+
+}
+ 
+ /* Set uping the 2 divisions in homwe page */
+
+.home-content{
+
+     height: 100%;
+     width: 57%;
+     float: left;
+
+}
+
+
+
+.home-img{
+     
+     height:100%;
+     width: 43%;
+     float: left;
+}
+
+
+
+.home-content .section_title{
+
+    font-size: 3rem;
+    padding-right: 50px;
+    line-height: 60px;
+    margin-bottom: 20px;
+    margin-left: .5cm;
+
+    margin-top: 30px;
+    position: relative;
+    animation-name: example;
+    animation-duration: 1.5s;
+    
+}
+
+@keyframes example{
+
+      0%  {left:0px; top:150px;}
+     100% {left:0px; top:0px;}
+     
+        
+}
+
+
+.home-content p{
+
+    font-size: 1.1rem;
+    color: var(--heading-color);
+    margin-bottom:50px ;
+    line-height:30px ;
+
+    margin-left: .5cm;
+
+
+    margin-top: 30px;
+    position: relative;
+    animation-name: example1;
+    animation-duration: 2s;
+
+}
+
+@keyframes example1{
+
+     0%   {left:0px; top:150px;}
+    100% {left:0px; top:0px;}
+       
+}
+
+.home-btns{
+     display: flex;
+     align-items: center;
+     column-gap: 3rem;
+     margin-left: 1cm;
+
+
+     margin-top: 30px;
+     position: relative;
+     animation-name: example2;
+     animation-duration: 3s;
+     
+}
+
+@keyframes example2{
+
+     0%   {left:0px; top:150px;}
+    100% {left:0px; top:0px;}
+       
+}
+/* Styling the right side image division of home page --------------------------------------------------*/
+
+.image-mover{
+
+  
+   height: 100%;
+   width: 100%;
+   
+}
+.image-mover img{
+     width: 700px;
+     height: 450px;
+     margin-left: -5cm;
+     
+}
+
+/* Styling the small 2 divisions around the right image */
+
+.whatsapp-container{
+
+     width: 100px;
+     position: absolute;
+     top: 55%;
+     left: -11%;
+     z-index: 10;
+     text-align: center;
+     box-shadow: -3px 3px 8px -1px black;
+    background: #fff ;
+     border-radius: 5px;
+     padding: 15px 10px ;
+     
+     
+}
+
+.whatsapp-container h5{
+     font-weight: 600;
+     font-size: .9rem;
+     color: var(--heading-color);
+     
+}
+
+
+/* styling the second small box above the right image------------------------------------------------*/
+
+.support{
+    width: 100px;
+    position: absolute;
+    top: 1%;
+    left: 75%;
+    z-index: 10;
+    text-align: center;
+    box-shadow: -3px 3px 8px -1px black;
+    background: #fff;
+    border-radius: 5px;
+    padding: 1.2rem;
+    background-color: 33;
+    
+}
+
+.support h5{
+     color: var(--heading-color);
+     margin-top: 1rem;
+     font-size: 0.9rem;
+}
+

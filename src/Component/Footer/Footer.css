@@ -1,0 +1,57 @@
+
+
+/* Styling the footer section -----------------------------------------*/
+
+.footer{
+    padding: 50px 0px;
+    width: 100%;
+    background: #eeeaff; 
+    margin-top: auto;
+    
+}
+
+.footer_wrapper{
+
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    column-gap: 2rem;
+    background:#eeeaff ;
+}
+
+/* Styling the 3 divided boxes of footer -------------------------------------------------*/
+
+.footer-box{
+     width: 30%;
+     
+}
+.footer-box p{
+     line-height: 1.2rem;
+     margin-top: 20px;
+}
+.footer-box h2{
+  margin-left: 1cm;
+}
+
+.fotter_title{
+
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    margin-left: 35px;
+}
+
+.footer_links li{
+     line-height: 28px;
+     color: var(--heading-color);
+}
+
+.footer_links li a{
+
+    cursor: pointer;
+}
+
+.footer_links li a:hover{
+    color: var(--primary-color);
+}
+
